@@ -4,7 +4,7 @@
 long long partition(int n) {
     if (n < 0) return 0;
 
-    // Initialize a vector to store partition counts
+    // Initialdddize a vector to store partition counts
     std::vector<long long> partitions(n + 1, 0);
     partitions[0] = 1;
 
@@ -20,7 +20,7 @@ long long partition(int n) {
 
             if (j >= 0) k *= -1;
         }
-
+   
         j = 1;
         k = 1;
 
